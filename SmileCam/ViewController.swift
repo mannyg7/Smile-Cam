@@ -21,7 +21,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     var responseJSON: JSON = []
     var binaryImageData: String = "";
     // Google API related info
-    var googleAPIKey = "AIzaSyCjg4Bz9P8lHlwjjV_lqETTEy8ekBZaMC8"
+    var googleAPIKey = ""
     var googleURL: URL {
         return URL(string: "https://vision.googleapis.com/v1/images:annotate?key=\(googleAPIKey)")!
     }
